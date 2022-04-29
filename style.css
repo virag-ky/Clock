@@ -122,3 +122,26 @@ body {
   height: 35%;
   background: #ff1493;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .clock {
+    width: 320px;
+    height: 320px;
+  }
+
+  .clock .handle.second {
+    width: 1.5px;
+  }
+
+  .clock .handle.minute {
+    width: 5px;
+  }
+
+  .clock .handle.hour {
+    width: 8px;
+  }
+}
